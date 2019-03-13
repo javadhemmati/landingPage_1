@@ -7,13 +7,26 @@
   color: white
   overflow: hidden
 
+  @media only screen and (max-width: 680px)
+    height: 500px
+
   img
     max-width: 500px
     width: 100%
 
-.article_header
-  margin: 0 auto
-  width: 50%
+  article
+    width: 50%
+    margin: 0 auto
+
+    @media only screen and (max-width: 680px)
+      width: 100%
 
   h1
     margin-bottom: 10px
+    white-space: nowrap
+    @media only screen and (max-width: 680px)
+      margin-top: 60px
+  p
+    font-weight: 800
+    @media only screen and (max-width: 680px)
+      margin-bottom: 60px
