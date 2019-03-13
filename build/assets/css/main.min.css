@@ -326,6 +326,36 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.main-nav {
+  display: flex;
+  margin-top: 20px;
+  padding: 0; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+    .main-nav li:first-child a {
+      padding: 0; }
+  .main-nav .logo {
+    padding: 10px 0; }
+  .main-nav a {
+    color: white;
+    display: block;
+    border-radius: 4px;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: all 0.2s ease; }
+  .main-nav a:hover, .main-nav a:active {
+    color: #00adff; }
+
+a.download {
+  background: white;
+  color: #00adff;
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
+  margin-left: 25px; }
+
 #features {
   background: #f9f9f9;
   text-align: center;
@@ -438,6 +468,15 @@ hr {
     top: 20px;
     content: url("../img/playicon.png"); }
 
+#footer {
+  text-align: center;
+  padding: 60px 0; }
+  #footer li {
+    list-style: none; }
+    #footer li a {
+      padding: 0 20px;
+      text-transform: uppercase; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -472,27 +511,3 @@ hr {
   width: 50%; }
   .article_header h1 {
     margin-bottom: 10px; }
-
-.main-nav {
-  display: flex;
-  margin-top: 20px;
-  padding: 0; }
-  .main-nav li {
-    list-style: none; }
-  .main-nav li:first-child {
-    margin-right: auto; }
-  .main-nav .logo {
-    padding: 10px 0; }
-  .main-nav a {
-    display: block;
-    color: white;
-    border-radius: 4px;
-    padding: 10px 50px;
-    text-decoration: none;
-    font-weight: 900;
-    text-transform: uppercase; }
-
-a.download {
-  background: white;
-  color: #00adff;
-  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
